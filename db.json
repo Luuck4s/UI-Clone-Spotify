@@ -1,0 +1,134 @@
+{
+  "Recently": [
+    {
+      "id": 1,
+      "name": "músicas para ouvir enquanto coda",
+      "photoAlbum": "https://pbs.twimg.com/profile_images/953595371875422210/0pWsfSSp_400x400.jpg",
+      "author": "Rockeseat"
+    },
+    {
+      "id": 2,
+      "name": "80s Rock Anthems",
+      "photoAlbum": "https://indieground.net/wp-content/uploads/2018/02/indieproduct_80svol1_album_cover_main-800x800.jpg",
+      "author": "Spotify"
+    },
+    {
+      "id": 3,
+      "name": "Top Brasil",
+      "photoAlbum": "https://charts-images.scdn.co/REGIONAL_BR_DEFAULT.jpg",
+      "author": "Spotify"
+    },
+    {
+      "id": 4,
+      "name": "Mamonas Assassinas",
+      "photoAlbum": "https://i.scdn.co/image/f679999cce8bb0a9fca90efe04e17bfe431fe15e",
+      "author": "Spotify"
+    },
+    {
+      "id": 5,
+      "name": "Your top Songs 2019",
+      "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2019_DEFAULT-en.jpg",
+      "author": "Spotify"
+    },
+    {
+      "id": 6,
+      "name": "Your top Songs 2018",
+      "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2018_DEFAULT-en.jpg",
+      "author": "Spotify"
+    },
+    {
+      "id": 7,
+      "name": "Your top Songs 2017",
+      "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2017_DEFAULT-en.jpg",
+      "author": "Spotify"
+    }
+  ],
+  "PodCasts": [
+    {
+      "id": 1,
+      "name": "PodProgramar",
+      "photoAlbum": "https://i.scdn.co/image/b0cc58d025cff4b54c2cedc0c4bf32d4be9c2f3f"
+    },
+    {
+      "id": 2,
+      "name": "Lambda3 Podcast",
+      "photoAlbum": "https://i.scdn.co/image/ae139d1d6a50ce49d17ef79918894ab83c1e6dc3"
+    },
+    {
+      "id": 3,
+      "name": "Hispster",
+      "photoAlbum": "https://i.scdn.co/image/43c9fec68da45cef0c610778dc17ecbba8b63629"
+    },
+    {
+      "id": 4,
+      "name": "CanalTech",
+      "photoAlbum": "https://i.scdn.co/image/156b0163f5cce547329df16a894a33df30e7fb8a"
+    }
+  ],
+  "Playlists": [
+    {
+      "id": 1,
+      "name": "Coding",
+      "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b2739feadc48ab0661e9b3a9170bab67616d0000b273a4d73b32e40487605c73cffec041fc9e4ea400357329fd7110952c014561ab5ae6d17a95cac4810507dfb0a8242e4463d4c32a30"
+    },
+    {
+      "id": 2,
+      "name": "Games",
+      "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b273235c4311089a9a5542ce352bab67616d0000b273abcf254fd0da4ebf3d7ae05bab67616d0000b273eb0018f092aedc32d20b2bdaab67616d0000b273f29186c301104c2d45b158bb"
+    }
+  ],
+  "PopularPlaylists": [
+    {
+      "id": 1,
+      "name": "Top Brasil",
+      "photoAlbum": "https://i.scdn.co/image/ab67706f0000000250b6d32919a796d3324e6dc7"
+    },
+    {
+      "id": 2,
+      "name": "Today's Top Hits",
+      "photoAlbum": "https://i.scdn.co/image/ab67706f000000025ce7025c95445d9051a1dfe0"
+    },
+    {
+      "id": 3,
+      "name": "This is Henrique & Juliano",
+      "photoAlbum": "https://i.scdn.co/image/ab67706f0000000298338cecf64aad5a97608c05"
+    },
+    {
+      "id": 4,
+      "name": "This is Lergião Urbana",
+      "photoAlbum": "https://i.scdn.co/image/ab67706f00000002a50df6d9c6495c418dc807f6"
+    },
+    {
+      "id": 5,
+      "name": "This is Wesley Safadão",
+      "photoAlbum": "https://i.scdn.co/image/ab67706f00000002db8a049afea6d6a779d0c4cb"
+    }
+  ],
+  "MadeForYou": [
+    {
+      "id": 1,
+      "name": "Daily Mix 1",
+      "photoAlbum": "https://dailymix-images.scdn.co/v1/img/32a89a9004fd9d4efb5e9ebf65ce844c355c5c46/1/pt/default"
+    },
+    {
+      "id": 2,
+      "name": "Daily Mix 2",
+      "photoAlbum": "https://dailymix-images.scdn.co/v1/img/4d947dce93a6f48a04f3c8c60a8b94cfccd6ca51/2/pt/default"
+    },
+    {
+      "id": 3,
+      "name": "Daily Mix 3",
+      "photoAlbum": "https://dailymix-images.scdn.co/v1/img/14268eda028f6f5cfb4dbff484e28fd8c21675e6/3/pt/default"
+    },
+    {
+      "id": 4,
+      "name": "Daily Mix 4",
+      "photoAlbum": "https://dailymix-images.scdn.co/v1/img/2acdc1d92b543ad2e2169166a65be8d051322020/4/pt/default"
+    },
+    {
+      "id": 5,
+      "name": "Daily Mix 5",
+      "photoAlbum": "https://dailymix-images.scdn.co/v1/img/f55cab0739390cf3b2c2f773b9c779b2f0ae8a99/5/pt/default"
+    }
+  ]
+}
