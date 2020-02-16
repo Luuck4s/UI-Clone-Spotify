@@ -1,5 +1,5 @@
 import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import {
   Ionicons,
@@ -13,13 +13,15 @@ import Libary from "./screens/Libary";
 import Premium from "./screens/Premium";
 
 const MyTheme = {
-  dark: false,
+  ...DefaultTheme,
+  dark: true,
   colors: {
-    primary: "rgba(25, 20, 20, 0.9)",
-    background: "rgba(25, 20, 20, 1)",
-    card: "rgba(25, 20, 20, 0.9)",
-    text: "rgba(255, 255, 255, 1)",
-    border: "rgba(25, 20, 20, 0.9)"
+    ...DefaultTheme.colors,
+    primary: "#141414",
+    background: "#121212",
+    card: "#141414",
+    text: "#FFF",
+    border: "#000"
   }
 };
 
@@ -32,8 +34,8 @@ function MyTabs() {
         backBehavior="initialRoute"
         initialRouteName="Home"
         tabBarOptions={{
-          activeTintColor: "#FFF",
-          inactiveTintColor: "#B6B6B6"
+          activeTintColor: "#f3f3f3",
+          inactiveTintColor: "#acacac"
         }}
       >
         <Tab.Screen
