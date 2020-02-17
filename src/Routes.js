@@ -7,6 +7,8 @@ import {
   MaterialCommunityIcons
 } from "@expo/vector-icons";
 
+import CustomTabBar from "./components/CustomTabBar";
+
 import Home from "./screens/Home";
 import Search from "./screens/Search";
 import Libary from "./screens/Libary";
@@ -31,6 +33,7 @@ function MyTabs() {
   return (
     <NavigationContainer theme={MyTheme}>
       <Tab.Navigator
+        tabBar={props => <CustomTabBar {...props} />}
         backBehavior="initialRoute"
         initialRouteName="Home"
         tabBarOptions={{

@@ -6,9 +6,5 @@ import Player from "../../components/Player";
 import { Container } from "./styles";
 
 export default function Libary() {
-  return (
-    <Container>
-      <Player />
-    </Container>
-  );
+  return <Container></Container>;
 }
