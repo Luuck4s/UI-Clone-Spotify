@@ -1,48 +1,63 @@
 {
-  "Recently": [
-    {
-      "id": 1,
-      "name": "músicas para ouvir enquanto coda",
-      "photoAlbum": "https://pbs.twimg.com/profile_images/953595371875422210/0pWsfSSp_400x400.jpg",
-      "author": "Rockeseat"
-    },
-    {
-      "id": 2,
-      "name": "80s Rock Anthems",
-      "photoAlbum": "https://indieground.net/wp-content/uploads/2018/02/indieproduct_80svol1_album_cover_main-800x800.jpg",
-      "author": "Spotify"
-    },
-    {
-      "id": 3,
-      "name": "Top Brasil",
-      "photoAlbum": "https://charts-images.scdn.co/REGIONAL_BR_DEFAULT.jpg",
-      "author": "Spotify"
-    },
-    {
-      "id": 4,
-      "name": "Mamonas Assassinas",
-      "photoAlbum": "https://i.scdn.co/image/f679999cce8bb0a9fca90efe04e17bfe431fe15e",
-      "author": "Spotify"
-    },
-    {
-      "id": 5,
-      "name": "Your top Songs 2019",
-      "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2019_DEFAULT-en.jpg",
-      "author": "Spotify"
-    },
-    {
-      "id": 6,
-      "name": "Your top Songs 2018",
-      "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2018_DEFAULT-en.jpg",
-      "author": "Spotify"
-    },
-    {
-      "id": 7,
-      "name": "Your top Songs 2017",
-      "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2017_DEFAULT-en.jpg",
-      "author": "Spotify"
-    }
-  ],
+  "Recently": {
+    "Playlists": [
+      {
+        "id": 1,
+        "name": "músicas para ouvir enquanto coda",
+        "photoAlbum": "https://pbs.twimg.com/profile_images/953595371875422210/0pWsfSSp_400x400.jpg",
+        "author": "Rockeseat"
+      },
+      {
+        "id": 2,
+        "name": "80s Rock Anthems",
+        "photoAlbum": "https://indieground.net/wp-content/uploads/2018/02/indieproduct_80svol1_album_cover_main-800x800.jpg",
+        "author": "Spotify"
+      },
+      {
+        "id": 3,
+        "name": "Top Brasil",
+        "photoAlbum": "https://charts-images.scdn.co/REGIONAL_BR_DEFAULT.jpg",
+        "author": "Spotify"
+      },
+      {
+        "id": 4,
+        "name": "Mamonas Assassinas",
+        "photoAlbum": "https://i.scdn.co/image/f679999cce8bb0a9fca90efe04e17bfe431fe15e",
+        "author": "Spotify"
+      },
+      {
+        "id": 5,
+        "name": "Your top Songs 2019",
+        "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2019_DEFAULT-en.jpg",
+        "author": "Spotify"
+      },
+      {
+        "id": 6,
+        "name": "Your top Songs 2018",
+        "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2018_DEFAULT-en.jpg",
+        "author": "Spotify"
+      },
+      {
+        "id": 7,
+        "name": "Your top Songs 2017",
+        "photoAlbum": "https://lineup-images.scdn.co/your-top-songs-2017_DEFAULT-en.jpg",
+        "author": "Spotify"
+      }
+    ],
+    "YourPlaylists": [
+      {
+        "id": 1,
+        "name": "Coding",
+        "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b2739feadc48ab0661e9b3a9170bab67616d0000b273a4d73b32e40487605c73cffec041fc9e4ea400357329fd7110952c014561ab5ae6d17a95cac4810507dfb0a8242e4463d4c32a30"
+      },
+      {
+        "id": 2,
+        "name": "Games",
+        "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b273235c4311089a9a5542ce352bab67616d0000b273abcf254fd0da4ebf3d7ae05bab67616d0000b273eb0018f092aedc32d20b2bdaab67616d0000b273f29186c301104c2d45b158bb"
+      }
+    ]
+  },
+
   "PodCasts": [
     {
       "id": 1,
@@ -63,18 +78,6 @@
       "id": 4,
       "name": "CanalTech",
       "photoAlbum": "https://i.scdn.co/image/156b0163f5cce547329df16a894a33df30e7fb8a"
-    }
-  ],
-  "Playlists": [
-    {
-      "id": 1,
-      "name": "Coding",
-      "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b2739feadc48ab0661e9b3a9170bab67616d0000b273a4d73b32e40487605c73cffec041fc9e4ea400357329fd7110952c014561ab5ae6d17a95cac4810507dfb0a8242e4463d4c32a30"
-    },
-    {
-      "id": 2,
-      "name": "Games",
-      "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b273235c4311089a9a5542ce352bab67616d0000b273abcf254fd0da4ebf3d7ae05bab67616d0000b273eb0018f092aedc32d20b2bdaab67616d0000b273f29186c301104c2d45b158bb"
     }
   ],
   "PopularPlaylists": [
