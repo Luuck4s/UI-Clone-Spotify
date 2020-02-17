@@ -130,5 +130,106 @@
       "name": "Daily Mix 5",
       "photoAlbum": "https://dailymix-images.scdn.co/v1/img/f55cab0739390cf3b2c2f773b9c779b2f0ae8a99/5/pt/default"
     }
-  ]
+  ],
+  "Categories": {
+    "TopGeners": [
+      {
+        "id": 1,
+        "name": "Hip-Hop",
+        "color": "#F39A24"
+      },
+      {
+        "id": 2,
+        "name": "Pop",
+        "color": "#B8E2BE"
+      },
+      {
+        "id": 3,
+        "name": "Rock",
+        "color": "#EC1E32"
+      },
+      {
+        "id": 4,
+        "name": "Indie",
+        "color": "#4300F7"
+      }
+    ],
+    "All": [
+      {
+        "id": 5,
+        "name": "Indie",
+        "color": "#97B9C5"
+      },
+      {
+        "id": 6,
+        "name": "Podcasts",
+        "color": "#F39A24"
+      },
+      {
+        "id": 7,
+        "name": "New Releases",
+        "color": "#97B9C5"
+      },
+      {
+        "id": 8,
+        "name": "Chats",
+        "color": "#4C917E"
+      },
+      {
+        "id": 9,
+        "name": "Concerts",
+        "color": "#FF6436"
+      },
+      {
+        "id": 10,
+        "name": "Made for You",
+        "color": "#97B9C5"
+      },
+      {
+        "id": 11,
+        "name": "Brazil",
+        "color": "#EFBA5E"
+      },
+      {
+        "id": 12,
+        "name": "Funk",
+        "color": "#2D46BA"
+      },
+      {
+        "id": 13,
+        "name": "Samba & Pagode",
+        "color": "#016450"
+      },
+      {
+        "id": 14,
+        "name": "Summer",
+        "color": "#F39A24"
+      },
+      {
+        "id": 15,
+        "name": "Cities",
+        "color": "#509CF4"
+      },
+      {
+        "id": 16,
+        "name": "Eletronic/Dance",
+        "color": "#96E8DA"
+      },
+      {
+        "id": 17,
+        "name": "Christian",
+        "color": "#509BF7"
+      },
+      {
+        "id": 18,
+        "name": "Spotify Awards",
+        "color": "#12B1B4"
+      },
+      {
+        "id": 19,
+        "name": "MPB",
+        "color": "#9FC3D3"
+      }
+    ]
+  }
 }
