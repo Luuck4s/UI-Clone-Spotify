@@ -20,11 +20,11 @@ export default function Home() {
     async function getData() {
       const response = await api.get("/db");
 
-      setRecently(response.data.Recently);
+      setRecently(response.data.Recently.Playlists);
       setPodcasts(response.data.PodCasts);
       setMadeForYou(response.data.MadeForYou);
       setPopularPlaylists(response.data.PopularPlaylists);
-      setYourPlaylists(response.data.Playlists);
+      setYourPlaylists(response.data.Recently.YourPlaylists);
     }
 
     getData();

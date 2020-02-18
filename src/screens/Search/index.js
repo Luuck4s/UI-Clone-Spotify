@@ -1,14 +1,66 @@
-import React from "react";
-import { View, ScrollView, Text } from "react-native";
+import React, { useEffect, useState } from "react";
+import { ScrollView, FlatList } from "react-native";
 
-import Player from "../../components/Player";
+import api from "../../services/api";
+
 import SearchBar from "../../components/SearchBar";
-import { Container } from "./styles";
+import GenreMusic from "../../components/GenreMusic";
+
+import { Container, Title } from "./styles";
+
+import { YellowBox } from "react-native";
+
+YellowBox.ignoreWarnings(["VirtualizedLists should never be nested"]);
 
 export default function Search() {
+  const [yourTop, setYourTop] = useState([]);
+  const [allGenres, setAllGenres] = useState([]);
+  const [YOffSet, setYOffSet] = useState(0);
+
+  useEffect(() => {
+    async function getData() {
+      const response = await api.get("/Categories");
+
+      setYourTop(response.data.TopGenres);
+      setAllGenres(response.data.All);
+    }
+
+    getData();
+  }, []);
+
+  const handeScroll = props => {
+    const YOffSet = props.nativeEvent.contentOffset.y;
+    setYOffSet(YOffSet);
+  };
+
   return (
     <Container>
+      <Title YOffSet={YOffSet} search>
+        Search
+      </Title>
       <SearchBar />
+      <ScrollView scrollEventThrottle onScroll={handeScroll}>
+        <Title>Your top genres</Title>
+        <FlatList
+          data={yourTop}
+          numColumns={2}
+          keyExtractor={item => `${item.id}`}
+          showsVerticalScrollIndicator={true}
+          renderItem={({ item }) => (
+            <GenreMusic name={item.name} color={item.color} />
+          )}
+        />
+        <Title>Browse all</Title>
+        <FlatList
+          data={allGenres}
+          numColumns={2}
+          keyExtractor={item => `${item.id}`}
+          showsVerticalScrollIndicator={false}
+          renderItem={({ item }) => (
+            <GenreMusic name={item.name} color={item.color} />
+          )}
+        />
+      </ScrollView>
     </Container>
   );
 }
