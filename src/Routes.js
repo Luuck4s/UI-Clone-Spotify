@@ -7,11 +7,11 @@ import {
   MaterialCommunityIcons
 } from "@expo/vector-icons";
 
-import CustomTabBar from "./components/CustomTabBar";
+import CustomTabBar from "./Routes/CustomTabBar";
+import CustomTopBar from "./Routes/CustomTopBar";
 
 import Home from "./screens/Home";
 import Search from "./screens/Search";
-import Libary from "./screens/Libary";
 import Premium from "./screens/Premium";
 
 const MyTheme = {
@@ -63,7 +63,7 @@ function MyTabs() {
         />
         <Tab.Screen
           name="Libary"
-          component={Libary}
+          component={CustomTopBar}
           options={{
             tabBarLabel: "Your Libary",
             tabBarIcon: ({ color }) => (
