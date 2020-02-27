@@ -21,9 +21,9 @@ export default function Home() {
       const response = await api.get("/db");
 
       setRecently(response.data.Recently.Playlists);
-      setPodcasts(response.data.PodCasts);
-      setMadeForYou(response.data.MadeForYou);
-      setPopularPlaylists(response.data.PopularPlaylists);
+      setPodcasts(response.data.PodCasts.Shows);
+      setMadeForYou(response.data.Playlists.MadeForYou);
+      setPopularPlaylists(response.data.Playlists.PopularPlaylists);
       setYourPlaylists(response.data.Recently.YourPlaylists);
     }
 
