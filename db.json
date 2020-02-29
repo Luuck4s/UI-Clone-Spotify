@@ -142,22 +142,26 @@
       {
         "id": 1,
         "name": "Liked Songs",
-        "photoAlbum": "https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png"
+        "photoAlbum": "https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png",
+        "create": true
       },
       {
         "id": 2,
         "name": "músicas para ouvir enquanto coda",
-        "photoAlbum": "https://i.scdn.co/image/ab67706c0000da841b68a2b2e8782f7f5017266a"
+        "photoAlbum": "https://i.scdn.co/image/ab67706c0000da841b68a2b2e8782f7f5017266a",
+        "create": false
       },
       {
         "id": 3,
         "name": "Coding",
-        "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b27323ddce858fdfad46782143e8ab67616d0000b273806c160566580d6335d1f16cab67616d0000b2739feadc48ab0661e9b3a9170bab67616d0000b273a4d73b32e40487605c73cffe"
+        "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b27323ddce858fdfad46782143e8ab67616d0000b273806c160566580d6335d1f16cab67616d0000b2739feadc48ab0661e9b3a9170bab67616d0000b273a4d73b32e40487605c73cffe",
+        "create": false
       },
       {
         "id": 4,
         "name": "Games",
-        "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b273235c4311089a9a5542ce352bab67616d0000b273abcf254fd0da4ebf3d7ae05bab67616d0000b273eb0018f092aedc32d20b2bdaab67616d0000b273f29186c301104c2d45b158bb"
+        "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b273235c4311089a9a5542ce352bab67616d0000b273abcf254fd0da4ebf3d7ae05bab67616d0000b273eb0018f092aedc32d20b2bdaab67616d0000b273f29186c301104c2d45b158bb",
+        "create": false
       }
     ],
     "Artists": [

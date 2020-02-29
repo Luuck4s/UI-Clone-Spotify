@@ -1,8 +1,11 @@
 import React from "react";
-import { View } from "react-native";
 
-// import { Container } from './styles';
+import { Container, AlbumMessager } from "./styles";
 
 export default function Albums() {
-  return <View />;
+  return (
+    <Container>
+      <AlbumMessager>Albums you like will appear here</AlbumMessager>
+    </Container>
+  );
 }

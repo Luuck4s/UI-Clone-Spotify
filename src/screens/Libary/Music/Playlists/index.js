@@ -1,8 +1,38 @@
-import React from "react";
-import { View, ScrollView, Text } from "react-native";
+import React, { useState, useEffect } from "react";
+import api from "../../../../services/api";
 
-// import { Container } from './styles';
+import { View, FlatList, Text } from "react-native";
+
+import { Container } from "./styles";
+
+import Playlist from "../../../../components/Playlist";
 
 export default function Playlists() {
-  return <ScrollView></ScrollView>;
+  const [playlists, setPlaylists] = useState([]);
+
+  useEffect(() => {
+    async function getData() {
+      const response = await api.get("/Playlists");
+
+      setPlaylists(response.data.YourPlaylists);
+    }
+
+    getData();
+  }, []);
+
+  return (
+    <Container>
+      <FlatList
+        data={playlists}
+        keyExtractor={item => `${item.id}`}
+        renderItem={({ item }) => (
+          <Playlist
+            name={item.name}
+            photoAlbum={item.photoAlbum}
+            create={item.create}
+          />
+        )}
+      />
+    </Container>
+  );
 }
