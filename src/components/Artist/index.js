@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesome } from "@expo/vector-icons";
 
 import { Container, Image, InformationContainer, ArtistName } from "./styles";
 

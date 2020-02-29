@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import api from "../../../../services/api";
 
-import { View, FlatList, Text } from "react-native";
+import { FlatList } from "react-native";
 
 import { Container } from "./styles";
 
