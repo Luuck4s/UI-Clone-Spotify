@@ -12,7 +12,7 @@ export const Image = styled.Image.attrs({
   height: 60px;
   width: 60px;
   align-self: center;
-  background: #900;
+  background: #80808055;
   margin: 10px 20px 5px;
 `;
 

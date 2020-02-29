@@ -11,6 +11,7 @@ export const Image = styled.Image.attrs({
 })`
   height: 100%;
   width: 100%;
+  background: #80808055;
   align-self: center;
 `;
 export const AlbumInformation = styled.View`
