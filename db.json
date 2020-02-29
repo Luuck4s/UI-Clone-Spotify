@@ -81,7 +81,32 @@
         "photoAlbum": "https://i.scdn.co/image/156b0163f5cce547329df16a894a33df30e7fb8a"
       }
     ],
-    "Episodies": []
+    "Episodies": [
+      {
+        "id": 1,
+        "name": "CT News - 28/02/2020 (WahtsApp está quase em todos os celulares brasileiros)",
+        "podcastChanel": "PodCast Canaltech",
+        "photo": "https://i.scdn.co/image/156b0163f5cce547329df16a894a33df30e7fb8a"
+      },
+      {
+        "id": 2,
+        "name": "Lambda3 Podcast 184 - O impacto de tecnologias obsoletas para os negócios",
+        "podcastChanel": "Lambda3 Podcast",
+        "photo": "https://i.scdn.co/image/20d16c63b26213928412956055adf181ea2a94e7"
+      },
+      {
+        "id": 3,
+        "name": "Débito Técnico na Quero Educação - Hipster On The Road #27",
+        "podcastChanel": "Hispster ponto Tech",
+        "photo": "https://i.scdn.co/image/1abfbb42025e5039c9e4468bea7f77e0baf47f65"
+      },
+      {
+        "id": 4,
+        "name": "PodProgramar #72 - Transformação Digital",
+        "podcastChanel": "PodProgamar",
+        "photo": "https://i.scdn.co/image/8a0be5f6889225401eee3e9315f81c57c23bdc07"
+      }
+    ]
   },
   "Playlists": {
     "PopularPlaylists": [
