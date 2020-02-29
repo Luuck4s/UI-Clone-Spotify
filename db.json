@@ -138,8 +138,45 @@
         "photoAlbum": "https://dailymix-images.scdn.co/v1/img/f55cab0739390cf3b2c2f773b9c779b2f0ae8a99/5/pt/default"
       }
     ],
-    "YourPlaylists": [],
-    "Artists": []
+    "YourPlaylists": [
+      {
+        "id": 1,
+        "name": "Liked Songs",
+        "photoAlbum": "https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png"
+      },
+      {
+        "id": 2,
+        "name": "músicas para ouvir enquanto coda",
+        "photoAlbum": "https://i.scdn.co/image/ab67706c0000da841b68a2b2e8782f7f5017266a"
+      },
+      {
+        "id": 3,
+        "name": "Coding",
+        "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b27323ddce858fdfad46782143e8ab67616d0000b273806c160566580d6335d1f16cab67616d0000b2739feadc48ab0661e9b3a9170bab67616d0000b273a4d73b32e40487605c73cffe"
+      },
+      {
+        "id": 2,
+        "name": "Games",
+        "photoAlbum": "https://mosaic.scdn.co/640/ab67616d0000b273235c4311089a9a5542ce352bab67616d0000b273abcf254fd0da4ebf3d7ae05bab67616d0000b273eb0018f092aedc32d20b2bdaab67616d0000b273f29186c301104c2d45b158bb"
+      }
+    ],
+    "Artists": [
+      {
+        "id": 1,
+        "name": "Slipknot",
+        "photo": "https://i.scdn.co/image/a7958184e76eaec48937485e75d9f7e6d26d097f"
+      },
+      {
+        "id": 2,
+        "name": "The Beatles",
+        "photo": "https://i.scdn.co/image/6b2a709752ef9c7aaf0d270344157f6cd2e0f1a7"
+      },
+      {
+        "id": 3,
+        "name": "Manonas Assassinas",
+        "photo": "https://i.scdn.co/image/ab67616d0000b27320d57bc5fd5bbe506cabc22c"
+      }
+    ]
   },
 
   "Categories": {
