@@ -18,7 +18,7 @@
 
 ![Premium](https://github.com/Luuck4s/UI-Clone-Spotify/blob/master/.github/premium.gif?raw=true)
 
-## Sobre o projeto
+# :information_source: Sobre o projeto
 
 Este projeto foi realizado para aperfeiçoamento das habilidades de construção de interface utilizando o react native, o projeto consiste em clonar a interface do spotify, as informações como images de albuns estão sendo consumidas através de uma Api fake criada com [My JSON Server](https://my-json-server.typicode.com/).
 
