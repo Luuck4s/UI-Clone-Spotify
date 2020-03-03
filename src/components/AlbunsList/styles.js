@@ -7,9 +7,9 @@ export const Container = styled.View`
   margin: 0px 10px 8px;
 `;
 export const Image = styled.Image.attrs({
-  resizeMode: "contain"
+  resizeMode: "cover"
 })`
-  height: 100%;
+  height: 90%;
   width: 100%;
   background: #80808055;
   align-self: center;
@@ -19,7 +19,7 @@ export const AlbumInformation = styled.View`
   justify-content: flex-start;
   align-items: center;
   padding: 0px 5px 0px;
-  margin-top: -15px;
+
   height: 40px;
 `;
 export const Title = styled.Text`
