@@ -104,12 +104,7 @@ export default function Premium() {
           <TextCurrentPlan>Spotify Free</TextCurrentPlan>
           <TextCurrentPlan currentPlan>Current Plan</TextCurrentPlan>
         </ContainerCurrentPlan>
-      </ContainerGradient>
-      <FlatList
-        data={Plans}
-        keyExtractor={item => `${item.id}`}
-        horizontal={false}
-        renderItem={({ item }) => (
+        {Plans.map(item => (
           <PremiumCards
             key={item.id}
             Plan={item.namePlan}
@@ -117,8 +112,8 @@ export default function Premium() {
             colorGradientStart={item.colorGradientStart}
             colorGradientEnd={item.colorGradientEnd}
           />
-        )}
-      />
+        ))}
+      </ContainerGradient>
     </Container>
   );
 }

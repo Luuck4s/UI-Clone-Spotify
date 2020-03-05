@@ -40,20 +40,20 @@ export default function Search() {
       </Title>
       <SearchBar />
       <ScrollView scrollEventThrottle onScroll={handeScroll}>
-        <Title>Your top genres</Title>
         <FlatList
           data={yourTop}
           numColumns={2}
+          ListHeaderComponent={<Title>Your top genres</Title>}
           keyExtractor={item => `${item.id}`}
           showsVerticalScrollIndicator={true}
           renderItem={({ item }) => (
             <GenreMusic name={item.name} color={item.color} />
           )}
         />
-        <Title>Browse all</Title>
         <FlatList
           data={allGenres}
           numColumns={2}
+          ListHeaderComponent={<Title>Browse all</Title>}
           keyExtractor={item => `${item.id}`}
           showsVerticalScrollIndicator={false}
           renderItem={({ item }) => (
