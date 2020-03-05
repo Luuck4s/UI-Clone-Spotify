@@ -1,22 +1,22 @@
 # :musical_score: Clone de Interface do Spotify
 
-<img src="https://github.com/Luuck4s/UI-Clone-Spotify/blob/master/.github/Logo_Spotify.png?raw=true" width="100%" alt="Logo Spotify"  />
+<img  src="https://github.com/Luuck4s/UI-Clone-Spotify/blob/media-github/.github/Logo_Spotify.png?raw=true"  width="100%"  alt="Logo Spotify" />
 
 > :musical_note: Home Page
 
-![Home](https://github.com/Luuck4s/UI-Clone-Spotify/blob/master/.github/home.gif?raw=true)
+![Home](https://github.com/Luuck4s/UI-Clone-Spotify/blob/media-github/.github/home.gif?raw=true)
 
 > :mag: Search Page
 
-![Search](https://github.com/Luuck4s/UI-Clone-Spotify/blob/master/.github/search.gif?raw=true)
+![Search](https://github.com/Luuck4s/UI-Clone-Spotify/blob/media-github/.github/search.gif?raw=true)
 
 > :notes: Libary Page
 
-![Libary](https://github.com/Luuck4s/UI-Clone-Spotify/blob/master/.github/libary.gif?raw=true)
+![Libary](https://github.com/Luuck4s/UI-Clone-Spotify/blob/media-github/.github/libary.gif?raw=true)
 
 > :money_with_wings: Premium Page
 
-![Premium](https://github.com/Luuck4s/UI-Clone-Spotify/blob/master/.github/premium.gif?raw=true)
+![Premium](https://github.com/Luuck4s/UI-Clone-Spotify/blob/media-github/.github/premium.gif?raw=true)
 
 # :information_source: Sobre o projeto
 
@@ -45,7 +45,11 @@ Após baixar as dependências execute `$ yarn start` ou `$ npm start` para execu
 ### Mobile
 
 - [React Native;](https://facebook.github.io/react-native/)
+
 - [Expo;](https://expo.io/)
+
 - [Axios;](https://github.com/axios/axios)
+
 - [Socket-io.](https://socket.io/)
+
 - [Styled Components](https://styled-components.com/)
