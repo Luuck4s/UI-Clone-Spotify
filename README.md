@@ -47,8 +47,6 @@ Este projeto foi realizado para aperfeiçoamento das habilidades de construção
 
 - [Axios;](https://github.com/axios/axios)
 
-- [Socket-io.](https://socket.io/)
-
 - [Styled Components](https://styled-components.com/)
   
 
